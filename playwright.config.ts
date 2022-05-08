@@ -40,6 +40,9 @@ const config: PlaywrightTestConfig = {
     trace: "on-first-retry",
     headless: false,
     viewport: null,
+    launchOptions: {
+      slowMo: 1000,
+    },
   },
 
   /* Configure projects for major browsers */
