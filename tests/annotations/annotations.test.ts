@@ -1,4 +1,4 @@
-import { expect, test } from "@playwright/test";
+import { test } from "@playwright/test";
 
 test("first test", async ({ page }) => {
   console.log("first test running");
