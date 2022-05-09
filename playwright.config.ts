@@ -41,7 +41,7 @@ const config: PlaywrightTestConfig = {
     headless: false,
     viewport: null,
     launchOptions: {
-      slowMo: 1000,
+      slowMo: 500,
     },
   },
 
